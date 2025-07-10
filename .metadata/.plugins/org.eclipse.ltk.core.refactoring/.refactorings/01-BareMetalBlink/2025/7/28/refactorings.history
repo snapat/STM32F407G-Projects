@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;README.md&apos; to &apos;01-BareMetalBlink&apos;" description="Move &apos;README.md&apos; to &apos;01-BareMetalBlink&apos;" destination="/01-BareMetalBlink" element1="/01_Bare_Metal_Blink/README.md" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1752146202779" updateReferences="true"/>
-</session>
