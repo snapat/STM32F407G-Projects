@@ -1,0 +1,17 @@
+# STM32CubeIDE specific
+.metadata
+.project
+.cproject
+.settings/
+*.launch
+
+# Build output
+Debug/
+Release/
+
+# Other common files to ignore
+*.o
+*.elf
+*.map
+*.hex
+*.bin
