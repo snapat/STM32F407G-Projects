@@ -1,11 +1,7 @@
 /*
- * gpio.h
- *
- *  Created on: Jul 5, 2025
- *      Author: PJ
- *
- * This is the header file for the GPIO driver. It provides the public interface (API)
- * for other modules to interact with the GPIO peripherals.
+ * @file      gpio.h
+ * @author    PJ
+ * @details     This is the header file for the GPIO driver. It provides the public interface (API)for other modules to interact with the GPIO peripherals.
  */
 
 #ifndef INC_GPIO_H_

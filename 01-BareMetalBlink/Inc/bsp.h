@@ -1,12 +1,8 @@
 /*
- * bsp.h
- *
- *  Created on: Jul 2, 2025
- *      Author: PJ
- *
- *  This is the Board Support Package file. It's purpose is to define Peripheral Addresses, and Structs are used to define the layout of register memory
+ * @file      bsp.h
+ * @author    PJ
+ * @details     This is the Board Support Package file. It's purpose is to define Peripheral Addresses, and Structs are used to define the layout of register memory
  */
-//
 #ifndef SRC_BSP_H_
 #define SRC_BSP_H_
 

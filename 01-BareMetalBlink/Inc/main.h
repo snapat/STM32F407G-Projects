@@ -1,13 +1,34 @@
 /*
- * main.h
- *
- *  Created on: Jul 5, 2025
- *      Author: PJ
+ * @file      main.h
+ * @author    PJ
+ * @details     This is the main header file for the application. It serves as the central point for including necessary drivers and defining application-specific constants and configurations.
  */
 
-#ifndef INC_MAIN_H_
-#define INC_MAIN_H_
+#ifndef MAIN_H_
+#define MAIN_H_
+
+//---------------------------
+// Includes
+//---------------------------
+#include "bsp.h"
+#include "gpio.h"
 
 
+//---------------------------
+// Application-Specific Defines
+//---------------------------
 
-#endif /* INC_MAIN_H_ */
+/**
+ * @brief The GPIO port where the user LED is connected.
+ * By defining this here, we can easily change the port later without
+ * searching through the entire application code.
+ */
+#define LED_PORT    GPIOC
+
+/**
+ * @brief The pin number on the GPIO port where the user LED is connected.
+ */
+#define LED_PIN     13
+
+
+#endif /* MAIN_H_ */

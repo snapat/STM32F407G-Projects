@@ -1,11 +1,7 @@
 /*
- * gpio.c
- *
- *  Created on: Jul 5, 2025
- *      Author: PJ
- * This file provides the implementation for the GPIO driver functions
- * declared in gpio.h. It contains the low-level logic for manipulating
- * the hardware registers to control the GPIO peripherals.
+ * @file      gpio.c
+ * @author    PJ
+ * @details     This file provides the implementation for the GPIO driver functions declared in gpio.h. It contains the low-level logic for manipulating the hardware registers to control the GPIO peripherals.
  */
 
 #include <stdint.h>
