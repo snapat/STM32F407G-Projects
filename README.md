@@ -12,7 +12,7 @@ The projects are structured to be progressive, starting with fundamental concept
 
 This section serves as a table of contents for the projects contained within this repository. Each project includes its own detailed README.md file explaining the specific concepts and implementation.
 
-1. [**01\_Bare\_Metal\_Blink**](https://github.com/snapat/STM32F407G-Projects/tree/main/01-BareMetalBlink)  
+1. [**01-BareMetalBlink**](https://github.com/snapat/STM32F407G-Projects/tree/main/01-BareMetalBlink)  
    * **Description:** A fundamental "Hello, World\!" project to blink an external LED.  
    * **Peripherals Used:** RCC, GPIO.  
    * **Core Concepts:** Direct register access, clock gating, GPIO configuration, volatile keyword, multi-layer software architecture (BSP, Driver, App).  
