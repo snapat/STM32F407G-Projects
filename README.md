@@ -28,4 +28,4 @@ This section serves as a table of contents for the projects contained within thi
 
 * **MCU:** STM32F407VG  
 * **IDE:** STM32CubeIDE  
-* **Compiler:** ARM GCC
+* **Compiler:** Cross GCC
