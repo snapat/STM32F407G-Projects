@@ -12,20 +12,20 @@ The projects are structured to be progressive, starting with fundamental concept
 
 This section serves as a table of contents for the projects contained within this repository. Each project includes its own detailed README.md file explaining the specific concepts and implementation.
 
-1. [**01-BareMetalBlink**](https://github.com/snapat/STM32F407G-Projects/tree/main/01-BareMetalBlink)  
-   * **Description:** A fundamental "Hello, World\!" project to blink an external LED.  
-   * **Peripherals Used:** RCC, GPIO.  
-   * **Core Concepts:** Direct register access, clock gating, GPIO configuration, volatile keyword, multi-layer software architecture (BSP, Driver, App).  
-2. *(More projects to be added)*
+1. [**01-BareMetalBlink**](https://github.com/snapat/STM32F407G-Projects/tree/main/01-BareMetalBlink)
+   - **Description:** A fundamental "Hello, World\!" project to blink an external LED.
+   - **Peripherals Used:** RCC, GPIO.
+   - **Core Concepts:** Direct register access, clock gating, GPIO configuration, volatile keyword, multi-layer software architecture (BSP, Driver, App).
+2. _(More projects to be added)_
 
 ## **Development Philosophy**
 
-* **Bare-Metal First:** All drivers and peripheral interactions are written from scratch by directly manipulating memory-mapped registers.  
-* **Documentation-Driven:** Functionality is implemented by reading and interpreting the official STMicroelectronics device reference manual (RM0090) and datasheets.  
-* **Clean Architecture:** Each project follows a clean, multi-layer software architecture to promote code readability, reusability, and professional best practices.
+- **Bare-Metal First:** All drivers and peripheral interactions are written from scratch by directly manipulating memory-mapped registers.
+- **Documentation-Driven:** Functionality is implemented by reading and interpreting the official STMicroelectronics device reference manual (RM0090) and datasheets.
+- **Clean Architecture:** Each project follows a clean, multi-layer software architecture to promote code readability, reusability, and professional best practices.
 
 ## **Core Toolchain**
 
-* **MCU:** STM32F407VG  
-* **IDE:** STM32CubeIDE  
-* **Compiler:** ARM GCC
+- **MCU:** STM32F407VG
+- **IDE:** STM32CubeIDE
+- **Compiler:** ARM GCC
