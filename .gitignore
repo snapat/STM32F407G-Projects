@@ -1,3 +1,8 @@
+# Create the file
+touch .gitignore
+
+# Open the new .gitignore file in a text editor and paste the following:
+#
 # STM32CubeIDE specific
 .metadata
 .project
@@ -13,5 +18,12 @@ Release/
 *.o
 *.elf
 *.map
-*.hex
-*.bin
+*.list
+*.su
+*.d
+*.cyclo
+#
+
+# Now, add and commit this new file
+git add .gitignore
+git commit -m "build: Add .gitignore for STM32CubeIDE projects"
