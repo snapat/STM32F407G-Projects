@@ -16,7 +16,11 @@ This section serves as a table of contents for the projects contained within thi
    - **Description:** A fundamental "Hello, World\!" project to blink an external LED.
    - **Peripherals Used:** RCC, GPIO.
    - **Core Concepts:** Direct register access, clock gating, GPIO configuration, volatile keyword, multi-layer software architecture (BSP, Driver, App).
-2. _(More projects to be added)_
+2.  [**02-BareMetal-i2c-driver**](https://github.com/snapat/STM32F407G-Projects/tree/main/02-BareMetal-i2c-driver)
+   - **Description:** A complete bare-metal I2C driver written from scratch to interface with an MPU-6050 6-axis Inertial Measurement Unit (IMU).
+   - **Peripherals Used:** RCC, GPIO, I2C.
+   - **Core Concepts:** I2C communication protocol, layered driver architecture (MCAL/HAL), datasheet interpretation (RM0090 & MPU-6050), polling status flags (SB, ADDR, TxE, RxNE), and handling external sensor data.
+3. _(More projects to be added)_
 
 ## **Development Philosophy**
 
